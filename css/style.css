@@ -1,0 +1,212 @@
+/* animation */
+/* setting */
+
+:root {
+    --pri: #fdefe2
+}
+
+/* reset */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* layout */
+/* design */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.cat {
+    position: relative;
+    top: 0px;
+    margin: 150px auto;
+    width: 450px;
+    height: 400px;
+    /* background-color: blue; */
+}
+
+.face {
+    position: absolute;
+    bottom: 0px;
+    width: 450px;
+    height: 300px;
+    background-color: var(--pri);
+    /* border-radius: 170px 170px 120px 120px; */
+    border-radius: 50% 50% 35% 35%;
+}
+
+.line {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 10px;
+    height: 50px;
+    border-radius: 90% 20% 90% 20%;
+    border: 1px solid burlywood;
+    /* background-color: #fff; */
+    transform: rotate(10deg);
+}
+
+.line.one {
+    top: 8px;
+    left: 150px;
+}
+
+.line.two {
+    left: 220px;
+}
+
+.line.three {
+    top: 8px;
+    left: 290px;
+}
+
+.eye {
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    width: 50px;
+    height: 5px;
+    border-radius: 20% 35% 30% 20%;
+}
+
+.nose {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    top: 160px;
+    left: 210px;
+}
+
+.whiskers {
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 80% 10% 80% 10%;
+}
+
+.whiskers.left.one {
+    top: 170px;
+    left: 50px;
+    background-color: red;
+    transform: rotate(7deg);
+}
+
+.whiskers.left.two {
+    top: 190px;
+    left: 50px;
+    background-color: orange;
+    transform: rotate(-3deg);
+
+}
+
+.whiskers.right.one {
+    top: 170px;
+    left: 270px;
+    background-color: red;
+    transform: rotate(-7deg);
+}
+
+.whiskers.right.two {
+    top: 190px;
+    left: 270px;
+    background-color: orange;
+    transform: rotate(3deg);
+}
+
+.mouse {
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    width: 20px;
+    height: 10px;
+    background-color: pink;
+    /* border: 3px solid black; */
+    /* transform: rotate(30deg); */
+}
+
+.mouse.left {
+    transform: rotate(-40deg);
+    /* background-color: burlywood; */
+}
+
+.mouse.right {
+    left: 210px;
+    /* background-color: burlywood; */
+    transform: rotate(40deg);
+}
+
+.eye.circle.left {
+    height: 22px;
+    width: 35px;
+    border-radius: 20% 20% 50% 50%;
+    border: 3px solid burlywood;
+    background-color: #fff;
+    top: 111px;
+    left: 120px;
+}
+
+.eye.circle.right {
+    height: 22px;
+    width: 35px;
+    border-radius: 20% 20% 50% 50%;
+    border: 3px solid burlywood;
+    background-color: #fff;
+    top: 111px;
+    left: 290px;
+}
+
+.ear {
+    width: 100px;
+    height: 170px;
+    background-color: var(--pri);
+    position: absolute;
+    top: 110px;
+}
+
+.ear.left {
+    left: 15px;
+    transform: rotate(-5deg);
+    border-radius: 5% 85% 10% 70%;
+
+    /* background-color: antiquewhite; */
+}
+
+.left.in {
+    width: 70px;
+    height: 150px;
+    background-color: pink;
+    top: 114px;
+}
+
+.ear.right {
+    right: 15px;
+    transform: rotate(5deg);
+    border-radius: 85% 5% 70% 10%;
+}
+
+.right.in {
+    width: 70px;
+    height: 150px;
+    top: 114px;
+    background-color: pink;
+}
+
+.spit {
+    position: absolute;
+    top: 225px;
+    left: 225px;
+    width: 10px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 80% 80% 45% 45%;
+}
+
+/* media query */
